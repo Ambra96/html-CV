@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Roboto Slab',serif; 
+   } 
+a {
+    text-decoration: none;
+}
+  
+  body{
+  background:#585c68;
+  font-size:14px;
+  line-height:22px;
+  color: #555555;
+  }
+  .bold{
+  font-weight:700; /*poso entona*/
+  font-size: 20px; /* poso megala*/
+  text-transform: uppercase; /* gia kefalaia*/
+  } 
+  .semi_bold{
+  font-weight:500;
+  font-size: 16px;
+  }
+  .resume{
+   width:800px;      
+   height:auto;
+   display:flex;
+   margin:0px auto;
+  
+  }
+  .resume .resume_left{
+   width:280px; 
+   background: #2E073F;
+  }
+  .resume .resume_left .resume_profile {
+   width:100%;      
+   height:320px;
+  }
+  .resume .resume_left .resume_profile img{
+  
+  width:100%;      
+  height: 90%;
+  padding: 5px 25px;
+  }
+  .resume .resume_left .resume_content{
+  padding:0 25px;
+  }
+  .resume .title{
+  margin-bottom:20px;
+  }
+  .resume .resume_left .bold{
+   color: #EBD3F8;
+  }
+  .resume .resume_left .regular{
+   color:#EBD3F8;
+  }
+  .resume .resume_item{
+  padding: 25px 0;
+  border-bottom: 2px solid #2E073F;
+  }
+  .resume .resume_left .resume_item:last-child,
+  .resume .resume_right .resume_item:last-child{ /*gia na figei h asprh grammh katw katw*/
+  border-bottom: 0px;
+  } 
+  
+  .resume .resume_left ul li{
+  display:flex;
+  margin-bottom:10px;
+  align-items:center;
+  }
+  
+  .resume .resume_left ul li:last-child{
+  margin-bottom:0;
+  }
+  
+  
+  /*sth odo thl*/
+  .resume .resume_left ul li .data {
+    color: #EBD3F8;
+    margin:0 10px 
+  } 
+  
+   
+   .resume .resume_left .resume_skills tr td {
+    margin-bottom: 3px;
+    color: #EBD3F8;
+    padding: 3px;
+    width:80%;
+  }
+  
+  
+  
+  .resume .resume_left .resume_soft_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #EBD3F8;/*xroma stis dexiothtes*/
+    align-items: center;
+  }
+  
+  .resume .resume_left .resume_soft_skills ul li .skill_name {
+    width:    80%;
+  }
+  
+  
+  .resume .resume_left .resume_languages .languages_name,
+  .resume .resume_left .resume_languages  .languages_level
+   {
+  margin-bottom: 3px;
+  padding: 3px;
+  color: #EBD3F8;
+  }
+  
+
+  .resume .resume_left .resume_hobbies ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #EBD3F8;
+    align-items: center;
+  }
+
+  .resume .resume_left .resume_hobbies ul li .hobby_name{
+    width: 80%;
+  }
+   
+
+
+
+  /*resume right --> */
+  
+  .resume .resume_right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #2E073F;
+  }
+  
+  .resume .resume_right .resume_work ul,
+  .resume .resume_right .resume_education ul,
+  .resume .resume_right .resume_project ul {
+    padding-left: 40px;
+    overflow: hidden;
+  }
+  
+  .resume .resume_right ul li {
+    position: relative;
+  }
+  
+  .resume .resume_right ul li .sub {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .resume .resume_right ul li .info {
+    margin-bottom: 20px;
+  }
+  
+  .resume .resume_right ul li:last-child .info {
+    margin-bottom: 0;
+  } 
+  
+  .resume .resume_right .resume_work ul li:before,
+  .resume .resume_right .resume_education ul li:before,
+  .resume .resume_right .resume_project ul li:before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #2E073F;
+  }
+  
+  .resume .resume_right .resume_work ul li:after,
+  .resume .resume_right .resume_education ul li:after, 
+  .resume .resume_right .resume_project ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -19px;
+    width: 2px;
+    height: 160px;
+    background: #2E073F;
+  }
+  
